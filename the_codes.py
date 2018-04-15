@@ -244,7 +244,7 @@ def stega(path,text):
     #for n in new_img[0]:
         #print n
     #print new_img[1]
-    cv2.imwrite("K:\\encoded.png",new_img)
+    cv2.imwrite("encoded.png",new_img)
     #print "lkllkk"
     return 1
         

@@ -29,7 +29,7 @@ def encode(cover,conceal):
             new = (x1[:4]+x2[:4],y1[:4]+y2[:4],z1[:4]+z2[:4])
             new = toInteger(new)
             cov[i,j] = new
-    cv2.imwrite("K:\\image_encoded.png",cov)
+    cv2.imwrite("image_encoded.png",cov)
     return 1
 
 def decode(image):
@@ -52,7 +52,7 @@ def decode(image):
                 v=j+1
 
     new_img = img[0:u,0:v]
-    cv2.imwrite("k:\\orignal_image.png",new_img)
+    cv2.imwrite("orignal_image.png",new_img)
     return 1
 
     
